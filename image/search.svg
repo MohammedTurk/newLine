@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Icon" transform="translate(0 0.333)">
+    <rect id="bound" width="24" height="24" transform="translate(0 -0.333)" fill="none"/>
+    <path id="Path_2" data-name="Path 2" d="M.293,1.707A1,1,0,0,1,1.707.293l4,4A1,1,0,0,1,4.293,5.707Z" transform="translate(14 15)" fill="#cb4337"/>
+    <path id="Path" d="M7,14a7,7,0,1,1,7-7A7.008,7.008,0,0,1,7,14ZM7,2a5,5,0,1,0,5,5A5.006,5.006,0,0,0,7,2Z" transform="translate(4 3.667)" fill="#cb4337"/>
+  </g>
+</svg>

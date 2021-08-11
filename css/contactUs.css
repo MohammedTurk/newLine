@@ -1,0 +1,55 @@
+.section-contact {
+  background-color: #f4f3f4;
+  text-align: right;
+}
+.contact-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.contact-container h2 span {
+  font-family: mediumm;
+  color: #cb4337;
+  position: relative;
+}
+.contact-container h2 span::before {
+  content: "";
+  width: 40%;
+  height: 2px;
+  background-color: #cb4337;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.contact-container .form-side input,
+.contact-container .form-side textarea {
+  border-radius: 30px;
+  border: 1px solid #e7e5ea;
+  padding: 20px 10px;
+}
+.contact-container .form-side input::placeholder,
+.contact-container .form-side textarea::placeholder {
+  font-family: regular;
+}
+.contact-container .form-side label {
+  font-family: mediumm;
+}
+.contact-container .img-side img {
+  width: 80%;
+}
+.contact-container .form-side form div {
+  margin-top: 17px !important;
+}
+.btn-submit input {
+  background-color: #ce594f;
+  color: #fff;
+  padding: 8px !important;
+  width: 120px;
+  float: left;
+  font-size: 12px;
+  font-family: mediumm;
+  clear: both;
+  transition: 0.3s ease-in;
+}
+.btn-submit input:hover {
+  background-color: #b6382d;
+}

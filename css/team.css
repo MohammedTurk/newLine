@@ -1,0 +1,41 @@
+.section-team {
+  background-color: #f4f3f4;
+}
+.team-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.team-container h2 {
+  text-align: right;
+  padding-bottom: 7px;
+}
+.team-container h2 span {
+  color: #cb4337;
+  font-family: mediumm;
+  position: relative;
+}
+.team-container h2 span::before {
+  content: "";
+  width: 40%;
+  height: 2px;
+  background-color: #cb4337;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.team-container img {
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.team-container .team-content span {
+  font-family: mediumm;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
+.img-team {
+  transition: 0.4s;
+}
+.img-team:hover {
+  transform: scale(1.06);
+}

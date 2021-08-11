@@ -1,0 +1,898 @@
+@media (max-width: 2000px) {
+  .box .img-box img {
+    height: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .info-wrapper1 .wrapper1 {
+    height: 700px;
+  }
+
+  .info h3 {
+    /* font-size: 30px; */
+  }
+  .info p {
+    font-size: 25px;
+  }
+  .wrapper1 .group-img {
+    transform: translateX(40%);
+  }
+}
+@media (min-width: 991px) {
+  .boxes {
+    margin-left: 30px !important;
+  }
+  .main-side a {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1280px) {
+  nav.navbar {
+    padding: 0;
+  }
+  .info-box p {
+    font-size: 19px;
+  }
+  .info-box h5 {
+    color: #cb4337;
+    font-size: 21px;
+    font-family: mediumm;
+  }
+  .box .img-box img {
+    height: 92px;
+  }
+  .box-img-left img {
+    left: -73px;
+  }
+}
+@media (max-width: 991px) {
+  .slices .container-fluid {
+    padding-bottom: 50px !important;
+  }
+  .slices-info {
+    top: 12%;
+  }
+  .list-side .close-icon {
+    right: 18px;
+  }
+  .ul-res li a {
+    padding-right: 18px;
+  }
+  aside .list-side li a span {
+    font-size: 21px;
+  }
+  aside .list-side li a span img {
+    width: 20px;
+  }
+  .ul-res li {
+    padding: 14px 5px;
+  }
+  .info-wrapper1 .wrapper1 {
+    height: 450px;
+  }
+
+  .info h3 {
+    font-size: 20px;
+  }
+  .info p {
+    font-size: 19px;
+  }
+  .slices-container .col-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .slices-container .card .card-body {
+    font-size: 16px;
+    padding: 6px 1px;
+  }
+
+  .slices-info h5 {
+    font-size: 23px;
+    margin-bottom: 2px;
+  }
+  .slices-info h6 {
+    font-size: 17px;
+  }
+  .main-box {
+    width: 90%;
+  }
+  .navbar ul li a {
+    font-size: 10px;
+  }
+  .navbar-nav a {
+    font-size: 13px;
+  }
+  .info-box h5 {
+    font-size: 25px;
+  }
+  .info-box p {
+    font-size: 23px;
+  }
+  .boxes {
+    height: 77%;
+  }
+  .taste .container-fluid::before {
+    content: "";
+    position: absolute;
+    background-image: url(../image/mask-blue.png);
+    background-repeat: no-repeat;
+    background-size: 196% 66%;
+    /* object-fit: cover; */
+    max-width: 100%;
+    /* max-width: 100%; */
+    /* height: auto; */
+    left: 0;
+    top: 0;
+    transform: translateX(7%) translateY(0%) rotate(2deg);
+    height: 100%;
+    width: 100%;
+  }
+
+  .owl-dots {
+    display: none;
+  }
+
+  .footer .icons-footer {
+    margin-top: 4%;
+  }
+  .footer .icons-footer span {
+    font-size: 11px;
+    width: 32px;
+    height: 32px;
+    line-height: 34px;
+  }
+  /* .footer .header .col-6:nth-child(2){
+    margin-top: 5px;
+
+  } */
+  .footer .list-footer ul {
+    margin-top: 9%;
+  }
+  .footer .list-footer ul li a {
+    /* padding: 0 !important; */
+    font-size: 10px;
+    margin: 5px 3px;
+  }
+  .footer .list-footer ul li a {
+    font-size: 17px;
+  }
+  .box .img-box img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .slices-boxes .slice-box {
+    width: 100%;
+  }
+
+  .right-content .sec-content ul {
+    padding-right: 0;
+  }
+
+  /******************************* Slice Page Media ****************************** */
+  .slice-box-name,
+  .right-content .first-content {
+    font-size: 31px;
+  }
+  .slice-box-calories {
+    font-size: 27px;
+  }
+  .right-content .sec-content {
+    font-size: 18px;
+  }
+  .right-content .sec-content ul {
+    color: #000;
+  }
+  .left-content span {
+    padding: 6px;
+  }
+  .slice-box-info {
+    margin-top: 50px;
+  }
+
+  .social-btn-lg .social-content {
+    width: 41px;
+    padding: 3px 11px;
+  }
+  .social-btn-lg img {
+    width: 16px;
+  }
+
+  .social-content:hover {
+    width: 170px;
+    visibility: visible;
+  }
+  .social-btn-lg span {
+    margin-left: 8px;
+  }
+  .slice-img-res {
+    top: -25%;
+  }
+
+  .slice-box-info {
+    margin-top: 91px;
+  }
+  header .header {
+    padding: 10px 0;
+  }
+  .chef .container-chef {
+    margin: 0 !important;
+  }
+  .chef-imgg a {
+    margin-left: 0px !important;
+  }
+  .list-footer {
+    margin-right: 0px;
+  }
+  .header {
+    margin-bottom: 3px;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    width: 100%;
+    padding: 10px !important;
+  }
+}
+@media (max-width: 767px) {
+  .ul-res li {
+    padding: 7px 5px;
+  }
+  .list-side .close-icon {
+    right: 26px;
+  }
+  .ul-res li a {
+    padding-right: 24px;
+  }
+  aside .list-side li a span {
+    font-size: 20px;
+  }
+  aside .list-side li a span img {
+    width: 20px;
+  }
+  .info-wrapper1 .wrapper1 {
+    height: 320px;
+  }
+
+  .info h3 {
+    /* font-size: 28px; */
+  }
+  .wrapper1 .group-img {
+    position: absolute;
+    right: -52px;
+    top: 0;
+  }
+  .info p {
+    font-size: 19px;
+  }
+  .slices-container .col-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .slices-container .card .card-body {
+    font-size: 12px;
+    padding: 6px 1px;
+  }
+
+  .slices-info h5 {
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+  .slices-info h6 {
+    font-size: 14px;
+  }
+  .chef-img {
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+  }
+  .chef-img::before,
+  .chef-img::after {
+    width: 100%;
+  }
+  .main-box {
+    width: 90%;
+  }
+  .navbar-nav a {
+    font-size: 15px;
+  }
+
+  .footer .list-footer ul {
+    padding: 0 !important;
+  }
+
+  .footer .logo-footer img {
+    margin-top: 5px;
+  }
+
+  .info-box h5 {
+    font-size: 18px;
+  }
+  .info-box p {
+    font-family: regularr;
+    font-size: 18px;
+  }
+
+  /******************************* Slice Page Media ****************************** */
+  .slice-img-res {
+    top: -24%;
+  }
+  .slice-box-name,
+  .right-content .first-content {
+    font-size: 23px;
+  }
+  .slice-box-calories {
+    font-size: 18px;
+  }
+  .right-content .sec-content {
+    font-size: 15px;
+  }
+  .right-content .sec-content ul {
+    color: #000;
+  }
+  .left-content span {
+    padding: 6px;
+  }
+  .slice-box-info {
+    margin-top: 63px;
+  }
+  .left-side-wrapper1 img {
+    height: 100%;
+
+    border-radius: 0;
+  }
+  .dish-wrapper1 {
+    padding: 0px;
+  }
+  .dish-details-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .left-side-wrapper1 {
+    /* height: 220px; */
+    padding: 0 !important;
+  }
+
+  .right-side-wrapper1,
+  .recipe-files-container,
+  .editor-container,
+  .comments-container {
+    padding: 15px !important;
+  }
+  .footer-info {
+    padding: 0 15px 15px 15px;
+  }
+  .wrapper1-info .info-box p,
+  .footer-info p {
+    font-size: 19px;
+    font-family: regular;
+  }
+  .dish-wrapper1 {
+    border: 0;
+  }
+
+  .dish-wrapper1,
+  .recipe-files-container,
+  .editor-container,
+  .comments-container {
+    padding: 0;
+  }
+
+  .recipe-files-container,
+  .editor-container,
+  .comments-container {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 0;
+  }
+  .dish-wrapper1 {
+    border-radius: 0;
+  }
+
+  .comment-box p {
+    width: 100%;
+  }
+  .head-comment {
+    width: 100%;
+  }
+  /******************************* AboutUs Page Media ****************************** */
+
+  .about-container .info-grid4 span:first-child {
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .about-container .info-grid4 span:nth-child(2) {
+    font-size: 14px;
+  }
+  .about-container {
+    width: 100%;
+    text-align: right;
+    padding: 15px;
+  }
+
+  /******************************* DishDetals Page Media ****************************** */
+
+  .social-btn-res .social-content {
+    width: 50px;
+  }
+  .social-btn-res .social-content:hover {
+    width: 180px;
+  }
+
+  .owl-nav button {
+    position: static !important;
+    left: 0px !important;
+    top: 0px !important;
+    transform: translateY(0%) !important;
+    width: 30px;
+    margin: 10px !important;
+    font-size: 19px !important;
+    padding: 2px 10px !important;
+  }
+  .card-creative img {
+    height: 90px;
+  }
+  .creative-name {
+    margin-top: 60px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 575px) {
+  .btn-sidebar-res {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 17px;
+    margin-right: 6px;
+  }
+  .search-icon-res {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .list-side .close-icon {
+    right: 18px;
+  }
+  .ul-res li a {
+    padding-right: 18px;
+  }
+  aside .list-side li a span {
+    font-size: 14px;
+  }
+  aside .list-side li a span img {
+    width: 20px;
+  }
+
+  .info-wrapper1 .wrapper1 {
+    height: 250px;
+  }
+
+  .info h3 {
+    font-size: 25px;
+  }
+  .info p {
+    font-size: 19px;
+  }
+  .slices-container .col-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .slices-container .card .card-body {
+    font-size: 10px;
+    padding: 6px 1px;
+  }
+
+  .slices-info h5 {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+  .slices-info h6 {
+    font-size: 12px;
+  }
+  .chef-img {
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+  }
+  .chef-img::before,
+  .chef-img::after {
+    width: 100%;
+  }
+  .main-box {
+    width: 90%;
+  }
+  .navbar-nav a {
+    font-size: 12px;
+  }
+
+  .footer .list-footer ul {
+    padding: 0 !important;
+  }
+
+  .footer .logo-footer img {
+    margin-top: 5px;
+  }
+
+  .info-box h5 {
+    font-size: 14px;
+  }
+  .info-box p {
+    font-size: 14px;
+  }
+  .footer .list-footer ul {
+    margin-top: 11%;
+  }
+  .container-fluid .circle-icon i {
+    top: -37%;
+    left: -19%;
+  }
+
+  /******************************* Slice Page Media ****************************** */
+
+  .wrapper1-info .info-box p,
+  .footer-info p {
+    font-size: 17px;
+    font-family: regular;
+  }
+
+  .slice-box-info {
+    margin-top: 54px;
+  }
+  .slice-img-res {
+    top: -29%;
+  }
+  /*******************************  DishDetails Page Media ****************************** */
+  .recipe-right {
+    padding-left: 0px !important;
+    margin-bottom: 16px !important;
+  }
+  .recipe-right img,
+  .recipe-left .grid-imgs img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .icon-expan img {
+    width: 30px;
+  }
+  .card-creative img {
+    height: 80px;
+  }
+  .creative-name {
+    margin-top: 60px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 475px) {
+  .logo img {
+    width: 85px;
+  }
+  .btn-sidebar-res {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 17px;
+  }
+  .search-btn-res .search-btn-content {
+    width: 40px;
+    padding: 4px 10px;
+  }
+  .search-btn-res .search-btn-content:hover {
+    width: 180px;
+  }
+  .search-btn-res .search-btn-content:hover input {
+    height: 80%;
+  }
+  .ul-res li {
+    padding: 5px;
+  }
+  .list-side .close-icon {
+    right: 10px;
+  }
+  .ul-res li a {
+    padding-right: 9px;
+  }
+  aside .list-side li a span {
+    font-size: 16px;
+  }
+  aside .list-side li a span img {
+    width: 20px;
+  }
+  .info-wrapper1 .wrapper1 {
+    height: 250px;
+  }
+
+  .info h3 {
+    font-size: 19px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .slices-container .col-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .slices-container .card .card-body {
+    font-size: 10px;
+    padding: 6px 1px;
+  }
+
+  .slices-info h5 {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+  .slices-info h6 {
+    font-size: 12px;
+  }
+  .chef-img {
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+  }
+  .chef-img::before,
+  .chef-img::after {
+    width: 100%;
+  }
+  .main-box {
+    width: 90%;
+  }
+  .navbar-nav a {
+    font-size: 12px;
+  }
+
+  .footer .list-footer ul {
+    padding: 0 !important;
+  }
+  .footer .icons-footer {
+    margin-top: 12%;
+  }
+
+  .footer .logo-footer img {
+    margin-top: 5px;
+  }
+
+  .box {
+    padding: 6px 7px;
+  }
+  .info-box p {
+    font-size: 11px;
+  }
+  .info-box h5 {
+    font-size: 13px;
+  }
+  .footer .list-footer ul li a {
+    font-size: 14px;
+  }
+  /******************************* Slice Page Media ****************************** */
+  .slice-box-name,
+  .right-content .first-content {
+    font-size: 15px;
+  }
+  .slice-box-calories {
+    font-size: 14px;
+  }
+  .right-content .sec-content {
+    font-size: 14px;
+  }
+  .right-content .sec-content ul {
+    color: #000;
+  }
+  .left-content span {
+    padding: 6px;
+  }
+
+  .slice-img-res img {
+    width: 70%;
+  }
+  .slice-box-info {
+    margin-top: 40px;
+  }
+  .slice-img-res {
+    top: -29%;
+  }
+
+  /******************************* DishDetals Page Media ****************************** */
+
+  .right-side-wrapper1 h2,
+  .right-side-wrapper1 h4 {
+    color: #cb4337;
+    font-size: 19px;
+  }
+
+  .right-side-wrapper1 h5 {
+    font-size: 15px;
+  }
+  .social-btn-res .social-content {
+    width: 50px;
+  }
+  .social-btn-res .social-content:hover {
+    width: 180px;
+    visibility: visible;
+  }
+
+  /******************************* Team Page Media ****************************** */
+
+  .team-container .team-content span {
+    font-size: 15px;
+  }
+}
+@media (max-width: 374px) {
+  aside hr {
+    margin: 7px;
+  }
+  .list-side .close-icon {
+    right: 5px;
+  }
+  .ul-res li a {
+    padding-right: 5px;
+  }
+  aside .list-side li a span {
+    font-size: 13px;
+  }
+  aside .list-side li a span img {
+    width: 20px;
+  }
+  .info-wrapper1 .wrapper1 {
+    height: 250px;
+  }
+  .social-btn-lg .social-content {
+    padding: 0px 11px;
+    width: 34px;
+  }
+  .social-content:hover {
+    width: 150px;
+    visibility: visible;
+  }
+  .social-btn-lg span {
+    margin-left: 4px;
+  }
+  .info h3 {
+    font-size: 15px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .slices-container .col-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .slices-container .card .card-body {
+    font-size: 10px;
+    padding: 6px 1px;
+  }
+
+  .slices-info h5 {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+  .slices-info h6 {
+    font-size: 12px;
+  }
+  .slice-box-info {
+    margin-top: 21px;
+  }
+  .slice-img-res {
+    top: -27%;
+  }
+  .chef-img {
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+  }
+  .chef-img::before,
+  .chef-img::after {
+    width: 100%;
+  }
+  .main-box {
+    width: 90%;
+  }
+  .navbar-nav a {
+    font-size: 12px;
+  }
+
+  .footer .list-footer ul {
+    padding: 0 !important;
+  }
+  .footer .icons-footer {
+    margin-top: 3%;
+  }
+
+  .footer .logo-footer img {
+    margin-top: 5px;
+  }
+
+  .info-box p {
+    font-size: 11px;
+  }
+  .info-box h5 {
+    font-size: 13px;
+  }
+  .box {
+    padding: 6px 7px;
+  }
+  .box .img-box img {
+    height: 100%;
+  }
+  .footer .list-footer ul li a {
+    font-size: 9px;
+  }
+  /******************************* DishDetails Page Media ****************************** */
+  .editor-container span:first-child {
+    margin-left: 15px;
+    background-color: #f4f3f4;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #70707065;
+    line-height: 30px;
+  }
+  .editor-container span:first-child img {
+    height: 18px;
+  }
+  .editor-container span:nth-child(2) {
+    font-family: mediumm;
+    font-size: 14px;
+  }
+  .editor-container span:nth-child(3) {
+    font-family: regular;
+    font-size: 13px;
+    color: #5a5a5a;
+    margin-right: 6px;
+  }
+  .comment-box p {
+    font-size: 14px;
+  }
+  .modal-comment label {
+    font-size: 14px;
+  }
+  .head-comment input,
+  .head-comment select,
+  .head-comment textarea {
+    padding: 10px;
+  }
+  /******************************* Team Page Media ****************************** */
+
+  .team-container .team-content span {
+    font-size: 12px;
+  }
+
+  .social-btn-lg img,
+  .social-btn-res img {
+    width: 14px;
+  }
+  .social-btn-res .social-content {
+    width: 36px;
+  }
+  .social-content {
+    padding: 6px 9px;
+  }
+  .social-btn-res .social-content:hover {
+    width: 140px;
+    visibility: visible;
+  }
+  .logo img {
+    width: 80px;
+  }
+  .btn-sidebar-res {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 17px;
+  }
+
+  .search-btn-res .search-btn-content:hover {
+    width: 120px;
+  }
+  .search-btn-res .search-btn-content:hover input {
+    height: 80%;
+  }
+  .card-creative img {
+    height: 70px;
+  }
+  .creative-name {
+    margin-top: 50px;
+    font-size: 14px;
+  }
+}

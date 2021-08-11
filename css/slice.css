@@ -1,0 +1,131 @@
+.slices-boxes .slice-box {
+  width: 76%;
+  padding-right: 0;
+  padding: 15px;
+  box-shadow: 4px 4px 19px rgb(0 0 0 / 9%);
+  border-radius: 23px;
+}
+.box-content ul {
+  list-style-type: none;
+  padding-right: 6px;
+}
+.slice-box-name {
+  color: #cb4337;
+  font-size: 30px;
+  font-family: boldd;
+  white-space: nowrap;
+}
+
+.slice-box-calories {
+  font-size: 25px;
+  font-family: regular;
+
+  color: #65eed7;
+}
+.right-content .first-content {
+  font-size: 19px;
+  font-family: regular;
+}
+.right-content .sec-content ul {
+  margin-top: 5px;
+  color: #7b7b7b;
+}
+/* .left-content span {
+  padding: 11px;
+  box-shadow: 5px 5px 29px rgb(0 0 0 / 9%);
+  border-radius: 50%;
+} */
+.slice-box-img {
+  position: relative;
+}
+.box-img-left img {
+  width: 261px;
+  position: absolute;
+  left: -47px;
+  top: -45px;
+}
+.box-img-right img {
+  width: 261px;
+  position: absolute;
+  right: -47px;
+  top: -45px;
+}
+.slice-box {
+  margin-top: 104px;
+}
+.slice-box {
+  position: relative;
+}
+.slice-img-res {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -20%;
+  text-align: center;
+}
+.slice-img-res img {
+  width: 60%;
+}
+/* #7B7B7B */
+.social-btn-lg,
+.social-btn-res {
+  direction: ltr;
+}
+.social-component {
+  /* position: relative; */
+}
+.social-btn-lg img {
+  width: 30px;
+}
+.social-btn-res img {
+  width: 20px;
+}
+.social-btn-lg span,
+.social-btn-res span {
+  margin-left: 15px;
+}
+
+.social-btn-lg .main-social,
+.social-btn-res .main-social {
+  width: auto;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+}
+.social-btn-lg .social-component {
+  position: relative;
+}
+.social-content {
+  background-color: #fff;
+  position: absolute;
+  left: 5%;
+  top: 48%;
+  width: 55px;
+  padding: 13px 12px;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 16%);
+}
+.social-btn-res .social-content {
+  left: 0%;
+  width: 60px;
+}
+.social-btn-res .social-content:hover {
+  width: 230px;
+  visibility: visible;
+}
+.social-content:hover {
+  width: 220px;
+  visibility: visible;
+}
+.social-content:hover .main-social {
+  padding-right: 20px;
+  border-right: 1px solid #cccccc;
+}
+.main-social {
+  transition: all 0.4s ease-in-out;
+}
+.slice-box-title {
+  /* margin-top: 20px; */
+}

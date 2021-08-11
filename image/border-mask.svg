@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1799.741" height="1036.363" viewBox="0 0 1799.741 1036.363">
+  <defs>
+    <filter id="Mask" x="0" y="0" width="1799.741" height="1036.363" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Mask)">
+    <path id="Mask-2" data-name="Mask" d="M508.388-1.105,1143.34-2.549c280.539-.638,507.263,167.3,506.4,375.092s-228.981,376.764-509.521,377.4L505.27,751.389C224.73,752.027-1.993,584.093-1.132,376.3S227.849-.467,508.388-1.105Z" transform="translate(1659.04 993.68) rotate(-172)" fill="#cb4337"/>
+  </g>
+</svg>

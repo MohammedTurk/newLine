@@ -1,0 +1,85 @@
+.dish-section {
+  background-color: #f4f3f4;
+}
+.dish-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.dish-head .dish-title {
+  color: #cb4337;
+  font-family: mediumm;
+  position: relative;
+}
+.dish-head .dish-title::before {
+  content: "";
+  height: 3px;
+  width: 35%;
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  background-color: #cb4337;
+}
+.dish-head .dish-tool select {
+  /* padding: 10px; */
+  border-radius: 15px;
+  background-color: transparent;
+  height: 40px;
+  width: 130px;
+  border-color: #cb4337;
+  padding: 0 10px;
+  outline: none;
+  cursor: pointer;
+  font-family: mediumm;
+}
+.dish-box {
+  margin-top: 20px;
+}
+.dish-box.card {
+  border-radius: 20px;
+  border-color: #e7e5ea;
+}
+.card-body {
+  padding: 10px;
+}
+.head-card img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+.content-card h6 {
+  font-family: mediumm;
+  color: #cb4337;
+}
+
+.content-card p {
+  font-family: regular;
+}
+.pag-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pag-list ul li a {
+  border: 1px solid #707070;
+  padding: 6px 13px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+  width: 100%;
+  font-family: regular;
+  height: 100%;
+  font-size: 13px;
+  transition: 0.3s ease-in;
+}
+
+.pag-list ul li:first-child a {
+  color: #cccccc;
+}
+.pag-list ul li:last-child a {
+  color: #cb4337;
+}
+.pag-list ul li a:hover {
+  color: #fff;
+  background-color: #cb4337;
+  border-color: #cb4337;
+}
