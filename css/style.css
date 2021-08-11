@@ -294,7 +294,7 @@ aside ul li a:hover {
   margin: 0 auto;
 }
 .list-footer {
-  margin-right: 36px;
+  margin-right: 66px;
 }
 .list-footer a {
   color: #fff;
@@ -316,7 +316,7 @@ aside ul li a:hover {
   font-size: 15px;
   border-radius: 50%;
   text-align: center;
-  margin: 0 5px;
+  margin-right: 5px;
   transition: 0.2s ease-in;
   /* margin: 0 5px; */
 }
