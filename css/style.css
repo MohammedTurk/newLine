@@ -185,6 +185,7 @@ aside {
 }
 .btn-sidebar-lg {
   position: relative;
+  transition: 0.2s ease-in;
 }
 .btn-sidebar-res {
   background-color: #cb4337;
@@ -200,6 +201,9 @@ aside {
 
 .btn-sidebar-lg img {
   width: 49px;
+}
+.btn-sidebar-lg:hover {
+  transform: scale(1.1);
 }
 
 .btn-sidebar-lg i {
