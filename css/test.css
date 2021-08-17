@@ -26,6 +26,23 @@
     margin-top: 30px;
   }
 }
+@media (min-width: 767px) {
+  /* .social-content {
+    width: 46px;
+    height: 46px;
+    padding: 0px 12px;
+  }
+  .social-content img {
+    width: 20px;
+  }
+  .social-content:hover {
+    width: 170px;
+  }
+
+  .social-content a i {
+    font-size: 19px;
+  } */
+}
 @media (max-width: 1280px) {
   nav.navbar {
     padding: 0;
@@ -141,10 +158,7 @@
     height: 32px;
     line-height: 34px;
   }
-  /* .footer .header .col-6:nth-child(2){
-    margin-top: 5px;
 
-  } */
   .footer .list-footer ul {
     margin-top: 9%;
   }
@@ -191,18 +205,22 @@
     margin-top: 50px;
   }
 
-  .social-btn-lg .social-content {
-    width: 41px;
-    padding: 3px 11px;
+  .social-content {
+    width: 50px;
+    height: 50px;
+    padding: 0px 13px;
   }
-  .social-btn-lg img {
-    width: 16px;
+  .social-content:hover {
+    width: 210px;
   }
 
-  .social-content:hover {
-    width: 170px;
-    visibility: visible;
+  .social-content a i {
+    font-size: 26px;
   }
+  .social-content img {
+    width: 23px;
+  }
+
   .social-btn-lg span {
     margin-left: 8px;
   }
@@ -253,9 +271,6 @@
     height: 320px;
   }
 
-  .info h3 {
-    /* font-size: 28px; */
-  }
   .wrapper1 .group-img {
     position: absolute;
     right: -52px;
@@ -394,6 +409,7 @@
   .head-comment {
     width: 100%;
   }
+
   /******************************* AboutUs Page Media ****************************** */
 
   .about-container .info-grid4 span:first-child {
@@ -412,13 +428,6 @@
   }
 
   /******************************* DishDetals Page Media ****************************** */
-
-  .social-btn-res .social-content {
-    width: 50px;
-  }
-  .social-btn-res .social-content:hover {
-    width: 180px;
-  }
 
   .owl-nav button {
     position: static !important;
@@ -482,7 +491,16 @@
     font-size: 10px;
     padding: 6px 1px;
   }
-
+  .play-icon,
+  .chef-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 19px;
+  }
+  .play-icon i,
+  .chef-icon i {
+    transform: translateX(1px) translateY(-4px);
+  }
   .slices-info h5 {
     font-size: 16px;
     margin-bottom: 2px;
@@ -541,6 +559,21 @@
   }
   .slice-img-res {
     top: -29%;
+  }
+  .social-content {
+    width: 46px;
+    height: 46px;
+    padding: 0px 12px;
+  }
+  .social-content img {
+    width: 20px;
+  }
+  .social-content:hover {
+    width: 170px;
+  }
+
+  .social-content a i {
+    font-size: 19px;
   }
   /*******************************  DishDetails Page Media ****************************** */
   .recipe-right {
@@ -691,7 +724,21 @@
   .slice-img-res {
     top: -29%;
   }
+  .social-content {
+    width: 37px;
+    height: 37px;
+    padding: 0px 9px;
+  }
+  .social-content:hover {
+    width: 170px;
+  }
 
+  .social-content a i {
+    font-size: 19px;
+  }
+  .social-content img {
+    width: 17px;
+  }
   /******************************* DishDetals Page Media ****************************** */
 
   .right-side-wrapper1 h2,
@@ -702,13 +749,6 @@
 
   .right-side-wrapper1 h5 {
     font-size: 15px;
-  }
-  .social-btn-res .social-content {
-    width: 50px;
-  }
-  .social-btn-res .social-content:hover {
-    width: 180px;
-    visibility: visible;
   }
 
   /******************************* Team Page Media ****************************** */
@@ -736,16 +776,22 @@
   .info-wrapper1 .wrapper1 {
     height: 250px;
   }
-  .social-btn-lg .social-content {
-    padding: 0px 11px;
+  .social-content {
     width: 34px;
+    height: 34px;
+    padding: 6px 10px;
   }
+
   .social-content:hover {
-    width: 150px;
+    width: 160px;
     visibility: visible;
   }
-  .social-btn-lg span {
-    margin-left: 4px;
+
+  .social-content a i {
+    font-size: 18px;
+  }
+  .social-content img {
+    width: 15px;
   }
   .info h3 {
     font-size: 15px;
@@ -863,16 +909,7 @@
   .social-btn-res img {
     width: 14px;
   }
-  .social-btn-res .social-content {
-    width: 36px;
-  }
-  .social-content {
-    padding: 6px 9px;
-  }
-  .social-btn-res .social-content:hover {
-    width: 140px;
-    visibility: visible;
-  }
+
   .logo img {
     width: 80px;
   }

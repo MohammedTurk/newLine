@@ -34,8 +34,11 @@
   font-size: 20px;
 }
 .img-team {
-  transition: 0.4s;
 }
-.img-team:hover {
-  transform: scale(1.06);
+.box-team {
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.box-team:hover {
+  transform: scale(1.03);
 }

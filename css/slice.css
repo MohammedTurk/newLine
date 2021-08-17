@@ -66,30 +66,15 @@
 .slice-img-res img {
   width: 60%;
 }
-/* #7B7B7B */
-.social-btn-lg,
-.social-btn-res {
+.social-btn-lg {
   direction: ltr;
 }
-.social-component {
-  /* position: relative; */
-}
-.social-btn-lg img {
-  width: 30px;
-}
-.social-btn-res img {
-  width: 20px;
-}
-.social-btn-lg span,
-.social-btn-res span {
+
+.social-btn-lg span {
   margin-left: 15px;
 }
 
-.social-btn-lg .main-social,
-.social-btn-res .main-social {
-  width: auto;
-  display: block;
-  margin: 0;
+.social-btn-lg .main-social {
   cursor: pointer;
 }
 .social-btn-lg .social-component {
@@ -100,23 +85,53 @@
   position: absolute;
   left: 5%;
   top: 48%;
-  width: 55px;
-  padding: 13px 12px;
+  width: 49px;
+  height: 49px;
+  font-size: 28px;
+  padding: 0 11px;
   border-radius: 50px;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
   box-shadow: 0 2px 5px rgb(0 0 0 / 16%);
 }
-.social-btn-res .social-content {
-  left: 0%;
-  width: 60px;
+.social-content img {
+  width: 25px;
+  transform: translateY(1px);
 }
-.social-btn-res .social-content:hover {
-  width: 230px;
-  visibility: visible;
+.face-social a {
+  color: #4c76eb;
 }
+.face-social a:hover {
+  color: #4c76eb;
+}
+.social-content a {
+  transition: 0.3s;
+}
+.social-content a:hover {
+  transform: scale(1.1);
+}
+.twitter-social a {
+  color: #03a9f4;
+}
+.twitter-social a:hover {
+  color: #03a9f4;
+}
+.insta-social a {
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .social-content:hover {
-  width: 220px;
+  width: 200px;
   visibility: visible;
 }
 .social-content:hover .main-social {
@@ -125,7 +140,4 @@
 }
 .main-social {
   transition: all 0.4s ease-in-out;
-}
-.slice-box-title {
-  /* margin-top: 20px; */
 }

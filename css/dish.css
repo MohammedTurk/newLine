@@ -20,17 +20,24 @@
   background-color: #cb4337;
 }
 .dish-head .dish-tool select {
-  /* padding: 10px; */
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: transparent;
   height: 40px;
   width: 130px;
   border-color: #cb4337;
-  padding: 0 10px;
+  padding: 0 15px;
   outline: none;
   cursor: pointer;
   font-family: mediumm;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAA/UlEQVRIie3UMU7DMBSA4f/RuKrYqcQdwkLnDsBGB86SIVm6ZGkHMkTiLoiFDHAFOvQGIA4AEjEyC0IlpdTPWf2PdpxPb7AhFovFApPuwuK6fgQOW7GXZZ6/9vl5WVVj45I7hLd5nk039w7++H4ETIxLmrKqxj3RBjjFMezub8FiBzOBJyA1zjws6vpYiy6XN0dDl9wDKcja0F5tObsOknw2Dk5A1hh3Ps+yZ19086zh46woihcvOBT3Rf+FtbgG3Qv74lrUC96Hh6De8C5c3gc2BFXB8OtupsDqezkFVq3YC82Do4KhOzloJw2G4WfyW4BW7Kzv0xqLxWKqvgBNoqYAMSw1ggAAAABJRU5ErkJggg==");
+  background-repeat: no-repeat, repeat;
+  background-position: left 15px top 60%, 0 0;
+  background-size: 0.95em auto, 100%;
 }
+
 .dish-box {
   margin-top: 20px;
 }
