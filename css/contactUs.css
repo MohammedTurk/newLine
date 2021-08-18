@@ -26,6 +26,10 @@
   border: 1px solid #e7e5ea;
   padding: 20px 10px;
 }
+.contact-container .form-side textarea {
+  border-radius: 20px;
+  padding: 11px 10px;
+}
 .contact-container .form-side input::placeholder,
 .contact-container .form-side textarea::placeholder {
   font-family: regular;
@@ -40,7 +44,7 @@
   margin-top: 17px !important;
 }
 .btn-submit input {
-  background-color: #ce594f;
+  background-color: #cb4337;
   color: #fff;
   padding: 8px !important;
   width: 120px;
@@ -48,8 +52,11 @@
   font-size: 12px;
   font-family: mediumm;
   clear: both;
-  transition: 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border: none;
+  outline: none;
 }
 .btn-submit input:hover {
-  background-color: #b6382d;
+  background-color: #000000;
+  color: #fff;
 }

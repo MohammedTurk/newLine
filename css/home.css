@@ -28,19 +28,22 @@
 }
 .btn-wrapper {
   display: inline-block;
-  padding: 10px 30px;
-  background-color: #ce594f;
+  width: 176px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #cb4337;
   color: #fff;
   margin-bottom: 40px;
   margin-top: 25px;
   cursor: pointer;
-  font-size: 21px;
+  font-size: 19px;
   font-family: mediumm;
   border-radius: 50px;
   transition: 0.3s ease-in;
 }
 .btn-wrapper:hover {
-  background-color: #b6382d;
+  background-color: #000000;
 }
 .info h3 {
   font-size: 31px;
@@ -113,16 +116,14 @@
   position: absolute;
   left: 50%;
   z-index: 10;
-
   transform: translateX(-50%) translateY(-20%);
   top: 50%;
   background-color: #cb4337;
   color: #fff;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 22px;
-
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
   border-radius: 50%;
 }
 .play-icon i,
@@ -154,7 +155,7 @@
   top: -20%;
   transform: translateX(-50%);
   width: 30px;
-  height: 2px;
+  height: 3px;
 }
 .news-cards {
   width: 90%;
@@ -435,8 +436,8 @@ slices-container.row {
   right: 0;
   top: -10px;
   background-color: #cb4337;
-  width: 7%;
-  height: 2px;
+  width: 33px;
+  height: 3px;
 }
 .chef-name {
   color: #cb4337;
@@ -495,7 +496,7 @@ slices-container.row {
 }
 .chef-dot {
   position: absolute;
-  right: 0;
+  right: 5px;
   top: 0;
   background-color: #cb4337;
   width: 20px;
@@ -537,8 +538,9 @@ slices-container.row {
   right: 0;
   top: -10px;
   background-color: #cb4337;
-  width: 2%;
-  height: 2px;
+
+  width: 20px;
+  height: 3px;
 }
 .creative-boxes .card {
   border-radius: 20px;
@@ -582,4 +584,6 @@ slices-container.row {
 }
 .owl-stage {
   padding: 12px 0 !important;
+}
+.creative-boxes-container {
 }

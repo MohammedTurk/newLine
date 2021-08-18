@@ -61,8 +61,19 @@
   .box-img-left img {
     left: -73px;
   }
+  .about-container {
+    margin-top: 0 !important;
+  }
 }
 @media (max-width: 991px) {
+  .wrapper1 .group-img {
+    right: -51px;
+  }
+
+  .container-fluid .circle-icon i {
+    top: -21%;
+    left: -10%;
+  }
   .slices .container-fluid {
     padding-bottom: 50px !important;
   }
@@ -225,7 +236,7 @@
     margin-left: 8px;
   }
   .slice-img-res {
-    top: -25%;
+    top: -30%;
   }
 
   .slice-box-info {
@@ -247,8 +258,18 @@
     width: 100%;
     padding: 10px !important;
   }
+  .box-team {
+    padding: 0 8px;
+  }
+  .team-container .team-content span {
+    font-size: 16px;
+  }
 }
 @media (max-width: 767px) {
+  .container-fluid .circle-icon i {
+    top: -25%;
+    left: -13%;
+  }
   .list-footer {
     margin-right: 0px;
   }
@@ -326,10 +347,13 @@
     font-family: regularr;
     font-size: 18px;
   }
+  .info-wrapper1 {
+    transform: translateY(-36px);
+  }
 
   /******************************* Slice Page Media ****************************** */
   .slice-img-res {
-    top: -24%;
+    top: -29%;
   }
   .slice-box-name,
   .right-content .first-content {
@@ -446,6 +470,9 @@
     margin-top: 60px;
     font-size: 14px;
   }
+  .team-container .team-content span {
+    font-size: 16px;
+  }
 }
 @media (max-width: 575px) {
   .btn-sidebar-res {
@@ -494,9 +521,11 @@
   .play-icon,
   .chef-icon {
     width: 45px;
+    line-height: 57px;
     height: 45px;
     font-size: 19px;
   }
+
   .play-icon i,
   .chef-icon i {
     transform: translateX(1px) translateY(-4px);
@@ -545,7 +574,24 @@
     top: -37%;
     left: -19%;
   }
-
+  .creative-boxes {
+    width: 1000px;
+  }
+  .creative-boxes-container {
+    overflow-x: scroll;
+  }
+  .creative-boxes-container::-webkit-scrollbar {
+    display: none;
+  }
+  .container-fluid .grid-img img {
+    position: absolute;
+    top: 64%;
+    right: -12%;
+    color: #cb4337;
+    width: 45px;
+    transform: rotate(132deg);
+  }
+  /* .creative-boxes-container: */
   /******************************* Slice Page Media ****************************** */
 
   .wrapper1-info .info-box p,
@@ -932,5 +978,13 @@
   .creative-name {
     margin-top: 50px;
     font-size: 14px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1200px) {
+  .slice-box {
+    margin-top: 134px;
+  }
+  .info-wrapper1 .info {
+    margin-top: 38px !important;
   }
 }

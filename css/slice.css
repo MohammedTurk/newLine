@@ -141,3 +141,38 @@
 .main-social {
   transition: all 0.4s ease-in-out;
 }
+.pag-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pag-list ul li a {
+  border: 1px solid #cccccc;
+  padding: 6px 13px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+  width: 100%;
+  font-family: mediumm;
+  height: 100%;
+  font-size: 13px;
+  transition: 0.3s ease;
+}
+.pag-list ul li:first-child a {
+  color: #cccccc;
+}
+.pag-list ul li:last-child a {
+  border: 1px solid #cb4337;
+  color: #cb4337;
+}
+.pag-list ul li a:hover {
+  border: 1px solid #cb4337;
+  background-color: #cb4337;
+  color: #fff;
+}
+.pag-list ul li a.active {
+  color: #fff;
+  border: 1px solid #cb4337;
+  background-color: #cb4337;
+}

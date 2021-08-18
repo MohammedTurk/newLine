@@ -78,10 +78,7 @@
 .grid-img {
   position: relative;
 }
-/* .grid-img img {
-  width: 100%;
-  height: 100%;
-} */
+
 .recipe-left .grid .grid-img::before,
 .recipe-left .grid .grid-img::before {
   content: " ";
@@ -161,7 +158,7 @@
 }
 .add-comment button {
   color: #fff;
-  background-color: #ce594f;
+  background-color: #cb4337;
   border: none;
   outline: none;
   padding: 10px 35px;
@@ -170,7 +167,7 @@
   transition: 0.3s ease-in;
 }
 .add-comment button:hover {
-  background-color: #b6382d;
+  background-color: #000000;
 }
 .pag-list ul {
   list-style: none;
@@ -231,12 +228,11 @@
 .social-btn-lg .social-component {
   position: relative;
 }
-
 .social-content {
   background-color: #fff;
   position: absolute;
   left: 5%;
-  top: 4%;
+  top: 5%;
   width: 50px;
   height: 50px;
   font-size: 28px;
@@ -246,6 +242,10 @@
   overflow: hidden;
   box-shadow: 0 2px 5px rgb(0 0 0 / 16%);
 }
+.social-btn-lg .social-content {
+  top: 25%;
+}
+
 .social-content img {
   width: 25px;
   transform: translateY(1px);
@@ -295,9 +295,8 @@
 }
 
 .modal-comment {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0 0 0 / 62%);
   z-index: 999999;
-  /* position: relative; */
   opacity: 0;
   top: 0;
   left: 0;
@@ -332,6 +331,8 @@
 
 .modal-content {
   text-align: right;
+  overflow: auto;
+  max-height: 90vh;
 }
 .modal-content label,
 .modal-content h6 {
@@ -378,6 +379,11 @@
   color: #fff;
   padding: 6px 50px;
   border-color: #cb4337;
+  transition: all 0.3s;
+}
+.submit-comment input:hover {
+  border-color: #000000;
+  background-color: #000;
 }
 .recipe-right a,
 .recipe-left .grid a {
