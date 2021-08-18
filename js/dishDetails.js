@@ -20,3 +20,21 @@ function toggleComment() {
 document.querySelector(".modal-content").onclick = function (e) {
   e.stopPropagation();
 };
+
+// slider of news
+$(".recipe-slider").owlCarousel({
+  loop: true,
+  margin: 40,
+  nav: true,
+
+  rtl: true,
+  navText: [
+    "<i class='fa fa-chevron-right'></i>",
+    "<i class='fa fa-chevron-left'></i>",
+  ],
+  responsive: {
+    0: {
+      items: 1,
+    },
+  },
+});

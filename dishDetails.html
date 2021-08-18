@@ -9,7 +9,8 @@
   <link rel="stylesheet" type="text/css" href="css/all.min.css" />
  
   <link rel="stylesheet" href="css/animate.css" />
-
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.css" />
   <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="css/bootstrap.css" />
   <link rel="stylesheet" href="css/dishDetails.css" />
@@ -81,7 +82,7 @@
     <!-- sidebar -->
     <aside>
       <div class="sidebar">
-        <div class="sidebar-content col-6   col-lg-3 col-xl-2 pr-0">
+        <div class="sidebar-content col-7   col-lg-3 col-xl-2 pr-0">
           <div class="list-side text-right pt-5">
             <span class="close-icon">
               <i class="fas fa-times"></i>
@@ -131,19 +132,19 @@
 
             <ul class="ul-res list-unstyled pr-0 pt-3 d-block d-lg-none">
               <li>
-                <a href="#" class="d-flex align-items-center">
+                <a href="./index.html" class="d-flex align-items-center">
 
                   <span class="name-side">الرئيسية</span>
                 </a>
               </li>
               <li>
-                <a href="#" class="d-flex align-items-center">
+                <a href="./slice.html" class="d-flex align-items-center">
 
                   <span class="name-side"> لقمة </span>
                 </a>
               </li>
               <li>
-                <a href="#" class="d-flex align-items-center">
+                <a href="dish.html" class="d-flex align-items-center">
 
                   <span class="name-side"> طبق اليوم</span>
                 </a>
@@ -334,7 +335,10 @@
 
       
       <div class="recipe-files-container ">
-             <div class="recipe-component ">
+        <div class="recipe-slider  owl-carousel owl-theme">
+
+             <div class="recipe-component  ">
+               <h5 class="header-recipe mb-3">ملفات الوصفة : </h5>
               <div class="row no-gutters">
                 <div class="recipe-right col-sm-7  wow fadeInRight">
                   <a href=" ./image/recipeMain.png" 
@@ -342,16 +346,16 @@
                      <img src="./image/recipeMain.png" class="img-fluid" alt="">
 
                    <div class="icon-expan">
-                    <img src="./image/expan.svg" alt="">
+                    <img src="./image/expan.svg" class="img-fluid" alt="">
                     </div>
                   </a> </div>
  
                 <div class="recipe-left col-sm-5">
                   <div class="row no-gutters">
                     <div class="grid col-6 pl-2 pb-2  wow fadeInDown"  data-wow-delay=".2s">
-                      <a href="./image/recipe1.png" data-fancybox ="galary">
+                      <a href="./image/recipe1.png"  class="img-fluid" data-fancybox ="galary">
                         <div class="icon-expan2">
-                          <img src="./image/expan.svg" alt="">
+                          <img src="./image/expan.svg"   class="img-fluid" alt="">
                           </div>
                         <div class="grid-imgs">
                           <img src="./image/recipe1.png" class="img-fluid" alt="">
@@ -364,7 +368,7 @@
     
                         <div class="grid-img">
                           <img src="./image/recipe2.png" class="img-fluid" alt="">
-                          <img src="./image/mp3.svg" alt="">
+                          <img src="./image/mp3.svg"  class="img-fluid" alt="">
                         </div>
                       </a>
                     </div>
@@ -379,7 +383,61 @@
                       <a href="#">
                         <div class="grid-img">
                           <img src="./image/recipe4.png" class="img-fluid" alt="">
-                          <img src="./image/pdf.png" alt="">
+                          <img src="./image/pdf.png"  class="img-fluid" alt="">
+    
+                        </div>
+                      </a>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+            </div> <div class="recipe-component  ">
+              <div class="row no-gutters">
+                <div class="recipe-right col-sm-7  wow fadeInRight">
+                  <a href=" ./image/recipeMain.png" 
+                  data-fancybox="galary"  >
+                     <img src="./image/recipeMain.png" class="img-fluid" alt="">
+
+                   <div class="icon-expan">
+                    <img src="./image/expan.svg" class="img-fluid" alt="">
+                    </div>
+                  </a> </div>
+ 
+                <div class="recipe-left col-sm-5">
+                  <div class="row no-gutters">
+                    <div class="grid col-6 pl-2 pb-2  wow fadeInDown"  data-wow-delay=".2s">
+                      <a href="./image/recipe1.png"  class="img-fluid" data-fancybox ="galary">
+                        <div class="icon-expan2">
+                          <img src="./image/expan.svg"   class="img-fluid" alt="">
+                          </div>
+                        <div class="grid-imgs">
+                          <img src="./image/recipe1.png" class="img-fluid" alt="">
+                          
+                        </div>
+                      </a>
+                    </div>
+                    <div class="grid col-6  pr-2 pb-2 wow fadeInDown" data-wow-delay=".3s">
+                      <a href="#">
+    
+                        <div class="grid-img">
+                          <img src="./image/recipe2.png" class="img-fluid" alt="">
+                          <img src="./image/mp3.svg"  class="img-fluid" alt="">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="grid col-6 pl-2 pt-2 wow fadeInDown" data-wow-delay=".4s">
+                      <a href="#">
+                        <div class="grid-img">
+                          <img src="./image/recipe3.png" class="img-fluid" alt="">
+                          <i class="fas fa-play"></i> </div>
+                      </a>
+                    </div>
+                    <div class="grid col-6  pr-2 pt-2 wow fadeInDown" data-wow-delay=".5s">
+                      <a href="#">
+                        <div class="grid-img">
+                          <img src="./image/recipe4.png" class="img-fluid" alt="">
+                          <img src="./image/pdf.png"  class="img-fluid" alt="">
     
                         </div>
                       </a>
@@ -389,7 +447,8 @@
                 </div>
               </div>
             </div>
- 
+          
+ </div>
       </div>
       <div class="editor-container my-md-4   wow fadeInDown" data-wow-delay=".1s">
         <div class=" pr-0">
@@ -627,7 +686,8 @@
 
 </script>
    <script src="js/bootstrap.min.js"></script>
-   <script src="js/script.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/script.js"></script>
    <script src="js/dishDetails.js"></script>
 </body>
 
