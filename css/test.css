@@ -529,7 +529,7 @@
 
   .play-icon i,
   .chef-icon i {
-    transform: translateX(1px) translateY(-4px);
+    transform: translateX(1px) translateY(-6px);
   }
   .slices-info h5 {
     font-size: 16px;
